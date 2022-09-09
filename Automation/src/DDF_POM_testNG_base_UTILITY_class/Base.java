@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Base {
 
 	static WebDriver driver;
+	
 	public static void Browseropen() throws IOException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\raut5\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		
